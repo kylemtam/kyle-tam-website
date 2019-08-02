@@ -1,0 +1,83 @@
+/* Site-wide Rules */
+html, body {
+	height: 100%;
+	overflow: auto;
+}
+
+.content-title {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-text {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+	line-height: 135%;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+/* Banner */
+
+.banner {
+	top: 0px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    display: block;
+
+	height: auto;
+    min-height: 4.5rem;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	background: #2b2b2b;
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.banner ul {
+	text-align: center;
+}
+
+.banner li {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    display: inline-block;
+}
+
+.banner a {
+    margin: 0.6rem;
+    color: #999999;
+	transition: color 0.2s linear;
+}
+
+.nav--left {
+    margin-left: 1.5rem;
+}
+
+.nav--right {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.footer {
+	height: 7rem;
+	text-align: center;
+	padding-top: 1rem;
+	background: #2b2b2b;
+	background-color: rgba(0, 0, 0, 0.90);
+}
+.copyright_container {
+    display: block;
+ 
+}
+.footer__container {
+    padding-top: 1rem;
+	display: inline-block;
+}
+
+.footer__container a img {
+	height: 1.7rem;
+}
