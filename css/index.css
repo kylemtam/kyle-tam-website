@@ -6,6 +6,7 @@
     background-size: cover;
     text-align: center;
     position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* Content */
@@ -33,7 +34,8 @@
 }
 
 .content__about {
-	padding:2rem;
+    padding:2rem;
+    font-size: 20px;
 }
 
 .content__join {
@@ -52,5 +54,6 @@
 .links img {
 	display: block;
 	margin: auto;
-	width: 90%;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
