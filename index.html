@@ -9,7 +9,10 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/homepage.css">
 		<link rel="stylesheet" media="screen and (max-device-width: 500px)" href="css/mobile.css">
-		<link rel="icon" href="images/logo.png">
+        <link rel="icon" href="images/logo.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="javascript/scrolling.js" async></script> 
     </head>
     
     <body>
@@ -38,7 +41,10 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper col-md-12">
+        <div class="downArrow bounce col-md-12">
+                <a href="#bio">&#x25BC;</a>
+        </div>
+        <div class="wrapper col-md-12" id="bio">
                 <div  class ="content">
                     <div class="content__about col-md-12">
                         <h1 class="content-title">Hello there!</h1>
@@ -48,35 +54,71 @@
                     </div>
                 </div>
             </div>
-        <div class="links col-md-12">
+        <div class="links">
+            <div class="box__wrapper col-md-12">
+                <div class="col-md-4">    
+                    <a href="experience.html">
+                        <div class="box__outer" id="mechanical">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Mechanical</h1>
+                                <h1 class="cat_title">Take a look at some of my past positions at noteworthy companies and organizations.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
                 <div class="col-md-4">
                     <a href="experience.html">
-                        <img src="media/sample.jpg">
+                        <div class="box__outer" id="electrical">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Electrical</h1>
+                                <h1 class="cat_title">Take a look at some of my past positions at noteworthy companies and organizations.</h1>
+                            </div>
+                        </div>
                     </a>
-                    <h1 class="content-title">
-                        <a href="experience.html">EXPERIENCE</a>
-                    </h1>
-                    <p class="content-text">Take a look at some of my past positions at noteworthy companies and organizations.</p>
                 </div>
                 <div class="col-md-4">
-                    <a href="projects.html">
-                        <img src="media/sample.jpg"/>
+                    <a href="experience.html">
+                        <div class="box__outer" id="science">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Science</h1>
+                                <h1 class="cat_title">Take a look at some of my past positions at noteworthy companies and organizations.</h1>
+                            </div>
+                        </div>
                     </a>
-                    <h1 class="content-title">
-                        <a href="projects.html">PROJECTS</a>
-                    </h1>
-                    <p class="content-text">When I'm not working, you can count on the fact that I will be working on something cool. Take a look at some of my past projects.</p>
                 </div>
                 <div class="col-md-4">
-                    <a href="index.html">
-                        <img src="media/sample.jpg">
+                    <a href="experience.html">
+                        <div class="box__outer" id="hobbies">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Hobbies</h1>
+                                <h1 class="cat_title">Take a look at some of my past positions at noteworthy companies and organizations.</h1>
+                            </div>
+                        </div>
                     </a>
-                    <h1 class="content-title">
-                        <a href="index.html">GALLERY</a>
-                    </h1>
-                    <p class="content-text">A picture is worth a thousand words. Learn more about me through my own photography.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="experience.html">
+                        <div class="box__outer" id="gallery">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Gallery</h1>
+                                <h1 class="cat_title">Take a look at some of my past positions at noteworthy companies and organizations.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="experience.html">    
+                        <div class="box__outer" id="contact">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Contact</h1>
+                                <h1 class="cat_title">Take a look at some of my past positions at noteworthy companies and organizations.</h1>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
+        </div>
+
         <div class="footer col-md-12">
             <div class="copyright__container">
                 <a href="index.html">&copy; 2019 Kyle Tam</a>
