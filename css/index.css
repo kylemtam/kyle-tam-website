@@ -1,117 +1,26 @@
 /* Cover Photo */
 .cover-photo {
     height: 90%;
-	background: url('../media/sample.jpg');
-	background-repeat: no-repeat;
+	  background: url('../media/banner.jpg');
+	  background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     position: relative;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* Content */
-.box{
-    margin-left: auto;
-    margin-right: auto;
-    display: table-cell;
-    vertical-align: middle;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 2px 2px #000000;
-}
-
-.name{
-    font-family: "Roboto Slab";
-    font-size: 84px;
-    line-height:1.25;
-}
-
-
-.downArrow{
-    margin-left: auto;
-    margin-right: auto;
-    display: table-cell;
-    vertical-align: middle;
-    left: 50%; /* Fix */
-    padding-top: 3rem;
-    transform: translate(-50%, -50%);
-}
-.downArrow a{
-    font-style: normal;
-    font-size: 30px;
-}
-.bounce {
-    -moz-animation: bounce 3s infinite;
-    -webkit-animation: bounce 3s infinite;
-    animation: bounce 3s infinite;
-}
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
 /* Bio */
 .wrapper {
-	padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 4.5rem;
+	padding-left: 3rem;
+  padding-right: 2rem;
+  padding-top: 4.5rem;
 }
 
 .content__about {
-    padding:2rem;
-    font-size: 20px;
+  padding-left: 3rem;
+  font-size: 20px;
 }
 
-.content__join {
-	padding: 2rem;
-}
 
 /* Links */
 .links {
@@ -147,24 +56,27 @@
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
-	font-size: 1.3rem;
-	margin-bottom: 0.3rem;
+	font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1rem;
 }
 
 .box__inner .cat_title {
 	color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
-	font-size: 1rem;
-	margin-bottom: 0.3rem;
+	font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .box__outer{
 	background: url('../images/members/missing.png');
 	background-repeat: no-repeat;
 	background-position: center;
-    background-size: cover;
-    height: 20rem;
+  background-size: cover;
+  height: 23rem;
 	text-align: left;
 	padding-left: 0rem;
 	margin-bottom: 1rem;
@@ -174,11 +86,11 @@
 	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
 	background-size: cover;
 	background-repeat: no-repeat;
-    background-position: center;
-    height: 20rem;
+  background-position: center;
+  height: 23rem;
 	text-align: left;
 	padding-left: 1rem;
-    padding-top: 5rem;
+  padding-top: 5rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;

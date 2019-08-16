@@ -1,0 +1,40 @@
+.cover-photo {
+    height: 90%;
+	background: url('../media/sample.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+	padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4.5rem;
+}
+
+.content__about {
+    padding:2rem;
+    font-size: 20px;
+}
+
+.descriptions {
+	padding-top: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.descriptions img {
+	display: block;
+	margin: auto;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    padding-bottom: 2rem;
+}
