@@ -6,10 +6,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/gallery.css">
         <link rel="stylesheet" href="css/homepage.css">
 		<link rel="stylesheet" media="screen and (max-device-width: 500px)" href="css/mobile.css">
-		<link rel="icon" href="images/logo.png">
+        <link rel="icon" href="images/logo.png">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="javascript/scrolling.js" async></script> 
     </head>
     
     <body>
@@ -32,8 +35,83 @@
 			</ul>
         </div>
 
+        <div class="cover-photo">
+            <div class="box">
+                <div class="name">
+                    Gallery
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="downArrow bounce">
+                    <a href="#photos">&#x25BC;</a>
+            </div>
+        </div>
 
-
+        <div class="photos" id="photos">
+            <div class="box__wrapper col-md-12">
+                <div class="ind_photo col-md-3">    
+                    <a href="mechanical.html">
+                        <div class="box__outer" id="mechanical">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Mechanical</h1>
+                                <h1 class="cat_title">Whether it be planes, trains, automobiles - or the smaller components that go within, you can find it all here.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ind_photo col-md-3">
+                    <a href="electrical.html">
+                        <div class="box__outer" id="electrical">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Electrical</h1>
+                                <h1 class="cat_title">Data acquisition and hackathon projects only make up a small segment of my electrical and software projects.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ind_photo col-md-3">
+                    <a href="science.html">
+                        <div class="box__outer" id="science">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Science</h1>
+                                <h1 class="cat_title">From microgravity fluids research to collecting visual data on the Great American Eclipse, check out all my past science and research projects.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ind_photo col-md-3">
+                    <a href="hobbies.html">
+                        <div class="box__outer" id="hobbies">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Hobbies</h1>
+                                <h1 class="cat_title">Science and engineering is not what I am working on all day. Find out more about some of my other passions.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ind_photo col-md-3">
+                    <a href="gallery.html">
+                        <div class="box__outer" id="gallery">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Gallery</h1>
+                                <h1 class="cat_title">A picture is worth a thousand words. Learn more about me through my photos.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ind_photo col-md-3">
+                    <a href="contact.html">    
+                        <div class="box__outer" id="contact">
+                            <div class="box__inner">
+                                <h1 class="cat_name">Contact</h1>
+                                <h1 class="cat_title">Do you have questions for me? Feel free to contact me here.</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <div class="footer col-md-12">
                 <div class="copyright__container">

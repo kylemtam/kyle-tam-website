@@ -24,14 +24,21 @@ html, body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 500;
     margin-bottom: 0.5rem;
+    font-size: 30px;
 }
 
 .content-text {
     font-family: 'Open Sans', Helvetica, sans-serif;
-	line-height: 135%;
+  	line-height: 135%;
     font-weight: 400;
 }
 
+.content-date {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  line-height: 135%;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
 /* Banner */
 
 .banner {
