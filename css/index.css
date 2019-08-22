@@ -1,8 +1,8 @@
 /* Cover Photo */
 .cover-photo {
     height: 90%;
-	  background: url('../media/banner.jpg');
-	  background-repeat: no-repeat;
+	background: url('../media/banner.jpg');
+	background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     position: relative;
@@ -11,7 +11,7 @@
 
 /* Bio */
 .wrapper {
-	padding-left: 3rem;
+  padding-left: 3rem;
   padding-right: 2rem;
   padding-top: 4.5rem;
 }
@@ -57,8 +57,8 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 2.5rem;
-  margin-bottom: 0.3rem;
-  padding-left: 1rem;
+    margin-bottom: 0.3rem;
+    padding-left: 1rem;
 }
 
 .box__inner .cat_title {
@@ -66,17 +66,17 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1.8rem;
-  margin-bottom: 0.3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+    margin-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .box__outer{
-	background: url('../images/members/missing.png');
+	background: url('../images/members/sample.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
-  height: 23rem;
+    background-size: cover;
+    height: 23rem;
 	text-align: left;
 	padding-left: 0rem;
 	margin-bottom: 1rem;
@@ -86,18 +86,18 @@
 	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
 	background-size: cover;
 	background-repeat: no-repeat;
-  background-position: center;
-  height: 23rem;
+    background-position: center;
+    height: 23rem;
 	text-align: left;
 	padding-left: 1rem;
-  padding-top: 5rem;
+    padding-top: 5rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
 }
 
 #mechanical {
-	background: url('../media/sample.jpg');
+	background: url('../media/mechanical.jpg');
 	background-size: cover;
 }
 
@@ -107,7 +107,7 @@
 }
 
 #science {
-	background: url('../media/sample.jpg');
+	background: url('../media/science.jpg');
 	background-size: cover;
 }
 
