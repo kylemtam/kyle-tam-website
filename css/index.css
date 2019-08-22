@@ -1,7 +1,7 @@
 /* Cover Photo */
 .cover-photo {
     height: 90%;
-	background: url('../media/banner.jpg');
+	background: url('../media/banner.JPG');
 	background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -72,7 +72,7 @@
 }
 
 .box__outer{
-	background: url('../images/members/sample.jpg');
+	background: url('../media/sample.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
     background-size: cover;
