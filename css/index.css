@@ -102,7 +102,7 @@
 }
 
 #electrical {
-	background: url('../media/sample.jpg');
+	background: url('../media/electrical.jpg');
 	background-size: cover;
 }
 
@@ -117,11 +117,11 @@
 }
 
 #hobbies {
-	background: url('../media/sample.jpg');
+	background: url('../media/hobbies.jpg');
 	background-size: cover;
 }
 
 #contact {
-	background: url('../media/sample.jpg');
+	background: url('../media/contact.jpg');
 	background-size: cover;
 }

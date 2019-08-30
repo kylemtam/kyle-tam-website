@@ -1,0 +1,97 @@
+Science Section
+Canadian Reduced Gravity Experiment
+September 2018 - July 2019
+
+The Canadian Reduced Gravity Experiment Design Challenge (CAN-RGX) is a competition for Canadian post-secondary students to design and test a small scientific experiment on board a Falcon-20 which had been modified for reduced gravity flight to simulate the effects of microgravity. This competition was made possible through a collaboration with the National Research Council and the Canadian Space Agency.
+
+As a part of a team of 8 students in Waterloo Rocketry's Payload division, I helped design and test an experiment that aimed to characterize the physics of ferrofluids and collodial fluids under the influence of a magnetic field in simulated microgravity. This was done with the goal of determining the potential applications of ferrofluids in commercial applications for the space industry. On July 24, 2019, I had the amazing opportunity fly aboard the Falcon-20 to conduct our experiment as one of the primary mission specialists.
+
+Our experiment consisted of multiple geometries of 2-dimensional containers positioned on the back wall of a Pelican Case that were partially filled with ferrofluid. On the front side of the case, there was a phone camera taking videos of the fluid which were analyzed post-experiment. Magnets were added around the experiment to allow us to precisely control the magnitude and direction of the external force being applied to the system. Since in microgravity the only force acting on a fluid is its surface tension, this allowed us to see how a fluid would react to itself and the container in which it was confined within. This made it possible for us to observe exactly how external forces affected factors like contact angle, droplet size and free-surface shape. 
+
+During our design cycle, we also pursued the design and manufacturing of a solenoid-powered fluid system controlled by an STM32 Blue Pill and H-bridge as a potential space industry application for pumping liquid oxygen and satellite cooling systems without the use of moving mechanical components. This design consisted of a loop of a circular fluid loop with a solenoid stack attached on one of the sides. An identical loop without a pump was placed beside this loop to serve as a control. A flow meter was used to measure the flow rate of the fluid in the loop, and pressure sensors before and after the pump measured the pressure differential across the pump. It was discovered that this model would not be viable for commerical applications due to the low flow rates measured without the use of excessive power consumption in the system.
+
+You can find a summary of the campagin's events and footage from the flight here: https://www.youtube.com/watch?v=ca5r7QK3vPc
+
+News of the Universe
+March 2016 - Present
+
+Google Eclipse Megamovie
+July 2017 - September 2017
+
+
+Electrical Section
+Eleven-X - IoT Device Technician
+May 2019 - August 2019
+
+Established in 2014, eleven-x is a fast-growing startup that enables small business and organizations to integrate low-power smart device solutions to optimize their profitability and efficiency. eleven-x works with multiple sectors such as cities, utilities and transportation to provide complete low power solutions that last more than 10 years with almost zero-maintenance using Canada's first and only coast-to-coast public LoRaWAN network.
+
+At my time at eleven-x, I worked as an IoT Device Technician on the Research & Development Team. My roles included conducting analysis of IoT sensors and devices from partner companies to gather data on the potential deployment for commercial applications and giving detailed reports of my findings and recommendatiosn to my supervisors. 
+
+Furthermore, I had the opportunity to work occasionally with the application side of the team where I coded back-end application scripts using PHP Laravel that decoded IoT device payloads and inputted the data into MySQL databases. I also worked with the team to create test cases that verified accurate payload decoding and data flow. 
+
+As my responsibilities and tasks were conducted under the watch of multiple supervisors, I coordinated my progress with my team using applications such as Bitbucket and Jira.
+
+Waterloo Rocketry - Data Aquisition Team
+January 2019 - Present
+
+Waterloo Rocketry is a design team from the University of Waterloo, composed of about 30 undergraduate students. Together, we research, design, acquire funding for, build, test, and launch high powered sounding rockets. Each year, the team competes in the Spaceport America Cup (SAC). SAC is the world's largest collegiate rocketry competition, attracting over 100 universities and colleges from over a dozen countries. In 2017 and 2018, Waterloo Rocketry took home first place in the 10,000-foot hybrid category. This past summer, our 18-foot-long rocket Shark of the Sky shot for 30,000 feet, culminating in a 2nd place finish.
+
+In January, I joined the Data Acquisition Team where I have helped the team upgrade the hardware used to collect data on our rocket. During our cold flow and static fire tests of our engine, I work with the team to integrate load cells and differential pressure sensors in our setup to collect data on the performance of our engine. This was made possible using a custom program made on National Instrument's LabVIEW. Furthermore, I have helped the team test and troubleshoot PCBs created by our electrical team using KiCad and oscilloscopes to ensure that we collect accurate and complete data. This has also involved research into op-amps, power supplies and other components to conduct a noise analysis in order to figure out the source of the loss of data from our load cells.
+
+Canadian Reduced Gravity Experiment
+September 2018 - July 2019
+
+The Canadian Reduced Gravity Experiment Design Challenge (CAN-RGX) is a competition for Canadian post-secondary students to design and test a small scientific experiment on board a Falcon-20 which had been modified for reduced gravity flight to simulate the effects of microgravity. This competition was made possible through a collaboration with the National Research Council and the Canadian Space Agency.
+
+As a part of a team of 8 students in Waterloo Rocketry's Payload division, I helped design and test an experiment that aimed to characterize the physics of ferrofluids and collodial fluids under the influence of a magnetic field in simulated microgravity. This was done with the goal of determining the potential applications of ferrofluids in commercial applications for the space industry. On July 24, 2019, I had the amazing opportunity fly aboard the Falcon-20 to conduct our experiment as one of the primary mission specialists.
+
+During our design cycle, we pursued the design and manufacturing of a solenoid-powered fluid system controlled by an STM32 Blue Pill and H-bridge as a potential space industry application for pumping liquid oxygen and satellite cooling systems without the use of moving mechanical components. This design consisted of a loop of a circular fluid loop with a solenoid stack attached on one of the sides. An identical loop without a pump was placed beside this loop to serve as a control. A flow meter was used to measure the flow rate of the fluid in the loop, and pressure sensors before and after the pump measured the pressure differential across the pump. It was discovered that this model would not be viable for commerical applications due to the low flow rates measured without the use of excessive power consumption in the system.
+
+My contributions to the electrical side of this project included refining and testing the code that output two SPWM waves offset by 90 degrees which were then converted to sine waves using the H-bridge. To produce SPWM, two PWM signals were generated on A0 and A1, with each being 90 degrees offset from the other. Both of these PWM signals only generate the positive half of the sine wave. In order to create the negative half of the sine wave, two additional pins A2 and A3 were alternated between 1 and 0 to encode the sign of the signal. This sign changed with every second SPWM wave to general the full sine curve. Variables are used to control the clock frequency and PWM frequency. You can find the full project and the code here.
+
+You can find a summary of the campagin's events and footage from the flight here: https://www.youtube.com/watch?v=ca5r7QK3vPc
+
+UofTHacks VI - Trash Trekker
+January 2019
+
+At UofTHacks, the University of Toronto's annual hackathon that brings together 500 developers from across the world, my team aimed to tackle the problem of inefficient trash collection in the city and rural countryside.
+
+Using visual recognition powered by ML Kit and a suite of Google products including Firebase, Maps JS API and Maps SDK Android, we designed an open-source platform consisting of a web app and two Android apps that allowed users to submit photos of garbage either in person or from live drone footage. Our visiual recognition software sorted the garbage and geo-tagged it, loading it conveniently on a map accessible both on the web and on our apps.
+
+With aerial drones and crowd-sourced data, garbage will be located, categorized and entered into a database with the snap of a photo. Participate in our crowd-sourced data or use it yourself, and together we will create a beautiful city and a beautiful world.
+
+
+Mechanical
+Waterloo Rocketry
+September 2018 - Present
+
+Waterloo Rocketry is a design team from the University of Waterloo, composed of about 30 undergraduate students. Together, we research, design, acquire funding for, build, test, and launch high powered sounding rockets. Each year, the team competes in the Spaceport America Cup (SAC). SAC is the world's largest collegiate rocketry competition, attracting over 100 universities and colleges from over a dozen countries. In 2017 and 2018, Waterloo Rocketry took home first place in the 10,000-foot hybrid category. This past summer, our 18-foot-long rocket Shark of the Sky shot for 30,000 feet, culminating in a 2nd place finish.
+
+Payload
+I joined the Payload subteam back in September 2018 when I first joined the team. As the subteam I have spent the most time with, I have worked on numerous projects including the designing and manufacturing of last year's payload that we flew aboard our rocket. Last year's experiment goal was to assess the properties of 3D printed parts with varying infills and materials such as PLA and PET-G duing the flight of our rocket. By weighing these parts down with steel and aluminum loads, we were able to conduct an analysis on the viability of integrating 3D printed parts into future iterations of our rocket. A practical application of 3D parts that we flew within the rocket was a biological capsule that housed berry seeds. This was flown to test the effects of hypergravity and microgravity on fruit seeds and experimental testing is still ongoing as the plants continue to mature.
+
+All of our payloads are flown in metal containers known as CubeSats. Manufactured primarily out of aluminum stock, these cubular containers are the standard used within the space industry to launch low-cost, low-weight satellites and rocket payloads. Some of the parts I designed and prototyped include an itteration of the systems module, the end-face, the side-plates and the supporting plates. You can find more info on the CubeSat specification here: http://www.cubesat.org/s/cds_rev13_final2.pdf
+
+Other projects I have worked on include the design of a 3D printed tablet case attachment to integrate a PCB onto a tablet for the use of ground crew and the design of multiple battery mounts.
+
+This coming year I will be leading the development of our next rocket's payload. This experiment is planned to contain two particle detectors that will be used to detect the presence of muons passing through the atmosphere. This will also act as a proof of concept for smaller, cheaper particle detectors that could be flown in CubeSats in low earth orbit or at high altitudes on sounding rockets.
+
+Recovery
+
+Airframe
+
+Canadian Reduced Gravity Experiment Design Challenge
+September 2018 - July 2019
+
+The Canadian Reduced Gravity Experiment Design Challenge (CAN-RGX) is a competition for Canadian post-secondary students to design and test a small scientific experiment on board a Falcon-20 which had been modified for reduced gravity flight to simulate the effects of microgravity. This competition was made possible through a collaboration with the National Research Council and the Canadian Space Agency.
+
+As a part of a team of 8 students in Waterloo Rocketry's Payload division, I helped design and test an experiment that aimed to characterize the physics of ferrofluids and collodial fluids under the influence of a magnetic field in simulated microgravity. This was done with the goal of determining the potential applications of ferrofluids in commercial applications for the space industry. On July 24, 2019, I had the amazing opportunity fly aboard the Falcon-20 to conduct our experiment as one of the primary mission specialists.
+
+Our experiment consisted of multiple geometries of 2-dimensional containers positioned on the back wall of a Pelican Case that were partially filled with ferrofluid. On the front side of the case, there was a phone camera taking videos of the fluid which were analyzed post-experiment. Magnets were added around the experiment to allow us to precisely control the magnitude and direction of the external force being applied to the system. Since in microgravity the only force acting on a fluid is its surface tension, this allowed us to see how a fluid would react to itself and the container in which it was confined within. This made it possible for us to observe exactly how external forces affected factors like contact angle, droplet size and free-surface shape.
+
+My contributions to the mechanical side of this project included designing the back plate, base bracket and phone mount using Solidoworks. These were machined using tools such as the vertical bandsaw and drill press provided by the University of Waterloo's Enginering Student Machine Shop. The scope of the mechanical aspect of the project had to be designed and constructued with the intent of accomplishing it in a budget of $300 and a timeline of two weeks due to a leadership change part way through the development cycle of the project.
+
+You can find a summary of the campagin's events and footage from the flight here: https://www.youtube.com/watch?v=ca5r7QK3vPc
+
+Skills Ontario Robotics Competition
+September 017 - May 2018

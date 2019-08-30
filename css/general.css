@@ -4,12 +4,16 @@ html, body {
     overflow: auto;
 }
 
+blockquote {
+  border-left: none;
+}
+
 .h1 {
     font-size: 2rem;
 }
 
 .p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .h2 {
@@ -20,6 +24,17 @@ html, body {
     font-size: 3rem;
 }
 
+.h3 {
+  font-size: 1.5rem;
+}
+
+.subteam-title {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    color: #595959;
+}
 .content-title {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 500;
@@ -31,13 +46,15 @@ html, body {
     font-family: 'Open Sans', Helvetica, sans-serif;
   	line-height: 135%;
     font-weight: 400;
+    text-indent:40px
 }
 
 .content-date {
   font-family: 'Open Sans', Helvetica, sans-serif;
   line-height: 135%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 400;
+
 }
 /* Banner */
 
