@@ -26,3 +26,54 @@
 .section {
     padding-bottom: 2rem;
 }
+
+/* Photos */
+
+.photos {
+	margin-left: 11rem;
+}
+
+
+#payload1_inner{
+	height: 25rem;
+	margin: 0 auto;
+}
+
+#payload1 {
+	background: url('../media/mechanical/Waterloo Rocketry/payload_cubesat_endface.JPG');
+	background-size: cover;
+	height: 25rem;
+	width: 30rem;
+	margin: 0 auto;
+}
+
+#payload2_inner{
+	height: 25rem;
+	margin: 0 auto;
+}
+
+#payload2 {
+	background: url('../media/mechanical/Waterloo Rocketry/payload_tablet_attachment.JPG');
+	background-size: cover;
+	height: 25rem;
+	width: 25rem;
+	margin: 0 auto;
+}
+
+#payload3_inner{
+	height: 25rem;
+	margin: 0 auto;
+}
+
+#payload3 {
+	background: url('../media/mechanical/Waterloo Rocketry/payload_cubesat.jpg');
+	background-size: cover;
+	height: 25rem;
+	width: 15rem;
+	margin: 0 auto;
+}
+
+#recovery1 {
+	background: url('../media/science.jpg');
+	background-size: cover;
+}
