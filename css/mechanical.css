@@ -19,12 +19,16 @@
 
 .descriptions img {
 	display: block;
-	margin: auto;
     width: 90%;
 }
 
 .section {
     padding-bottom: 2rem;
+}
+
+/* Logos */
+#skillsontario {
+
 }
 
 /* Photos */

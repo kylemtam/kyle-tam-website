@@ -19,10 +19,42 @@
 
 .descriptions img {
 	display: block;
-	margin: auto;
     width: 90%;
 }
 
 .section {
     padding-bottom: 2rem;
+}
+
+/* Logos */
+#eclipsemegamovie{
+	margin-top: 4rem;
+}
+
+/* Photo */
+.box__inner {
+	padding-top: 25rem;
+}
+#eclipse1_inner{
+	height: 35rem;
+	margin: 0 auto;
+}
+
+#eclipse1 {
+	background: url('../media/science/eclipse_megamovie/glasses.JPG');
+	background-size: cover;
+	height: 35rem;
+	margin: 0 auto;
+}
+
+#eclipse2_inner{
+	height: 35rem;
+	margin: 0 auto;
+}
+
+#eclipse2 {
+	background: url('../media/science/eclipse_megamovie/pano.jpg');
+	background-size: cover;
+	height: 35rem;
+	margin: 0 auto;
 }

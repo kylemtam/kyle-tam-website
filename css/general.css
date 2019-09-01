@@ -28,6 +28,15 @@ blockquote {
   font-size: 1.5rem;
 }
 
+.icon{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+a.icon {
+  text-decoration: none;
+}
+
 .subteam-title {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 500;
@@ -275,8 +284,16 @@ a.page {
   background-position: center;
 	text-align: left;
 	padding-left: 1rem;
-  padding-top: 9rem;
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
+}
+
+/* Logos */
+.canrgx{
+  margin-top: 10rem;
+}
+
+.waterloorocketry{
+  margin-top: 6rem;
 }

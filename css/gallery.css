@@ -17,6 +17,7 @@
 
 .box__inner {
 	height: 23rem;
+	padding-top: 9rem;
 }
 
 .box__inner .cat_name {
