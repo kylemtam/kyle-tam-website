@@ -32,12 +32,55 @@
 }
 
 /* Photo */
-.box__inner {
-	padding-top: 25rem;
+
+.box__inner4 {
+	padding-top: 20rem;
 }
+
+#canrgx1_inner{
+	height: 22rem;
+	margin: 0 auto;
+	padding-top: 10rem;
+}
+
+#canrgx1 {
+	background: url('../media/science/canrgx/sponsors.jpg');
+	background-size: cover;
+	height: 22rem;
+	margin: 0 auto;
+}
+
+#canrgx2_inner{
+	height: 17rem;
+	margin: 0 auto;
+	padding-top: 6rem;
+}
+
+#canrgx2 {
+	background: url('../media/science/canrgx/experiment.jpg');
+	background-size: cover;
+	height: 17rem;
+	margin: 3rem auto;
+}
+
+#canrgx3_inner{
+	height: 22rem;
+	margin: 0 auto;
+	padding-top: 11rem;
+}
+
+#canrgx3 {
+	background: url('../media/science/canrgx/experiment2.jpg');
+	background-size: cover;
+	height: 22rem;
+	margin: 0 auto;
+}
+
+
 #eclipse1_inner{
 	height: 35rem;
 	margin: 0 auto;
+	padding-top: 25rem;
 }
 
 #eclipse1 {
@@ -50,6 +93,7 @@
 #eclipse2_inner{
 	height: 35rem;
 	margin: 0 auto;
+	padding-top: 25rem;
 }
 
 #eclipse2 {
