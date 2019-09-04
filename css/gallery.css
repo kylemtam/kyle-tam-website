@@ -28,32 +28,42 @@
     padding-left: 1rem;
 }
 
-#mechanical {
-	background: url('../media/mechanical.jpg');
+#riley_cat {
+	background: url('../media/gallery/cat.jpg');
 	background-size: cover;
 }
 
-#electrical {
-	background: url('../media/sample.jpg');
+#sots {
+	background: url('../media/gallery/SotS.jpg');
 	background-size: cover;
 }
 
-#science {
-	background: url('../media/science.jpg');
+#windmills {
+	background: url('../media/gallery/windmills.jpg');
 	background-size: cover;
 }
 
-#gallery {
-	background: url('../media/sample.jpg');
+#beach_corgi {
+	background: url('../media/gallery/corgi.jpg');
 	background-size: cover;
 }
 
-#hobbies {
-	background: url('../media/sample.jpg');
+#lunar_eclipse {
+	background: url('../media/gallery/lunareclipsecomposite.jpg');
 	background-size: cover;
 }
 
-#contact {
-	background: url('../media/sample.jpg');
+#changdeokgung {
+	background: url('../media/gallery/palace.jpg');
+	background-size: cover;
+}
+
+#minnehaha {
+	background: url('../media/gallery/MinnehahaFalls.jpg');
+	background-size: cover;
+}
+
+#vancouverlake {
+	background: url('../media/gallery/vancouverlake.jpg');
 	background-size: cover;
 }

@@ -41,6 +41,7 @@
 #payload1_inner{
 	height: 25rem;
 	margin: 0 auto;
+	padding-top: 15rem;
 }
 
 #payload1 {
@@ -54,6 +55,7 @@
 #payload2_inner{
 	height: 25rem;
 	margin: 0 auto;
+	padding-top: 10rem;
 }
 
 #payload2 {
@@ -67,6 +69,7 @@
 #payload3_inner{
 	height: 25rem;
 	margin: 0 auto;
+	padding-top: 3rem; 
 }
 
 #payload3 {
