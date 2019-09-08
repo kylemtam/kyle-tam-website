@@ -35,8 +35,18 @@
 
 #sots {
 	background: url('../media/gallery/SotS.jpg');
-	background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 }
+
+#sots__inner{
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
 
 #windmills {
 	background: url('../media/gallery/windmills.jpg');
