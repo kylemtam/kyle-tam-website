@@ -155,7 +155,7 @@
 }
 
 #airframe2 {
-	background: url('../media/mechanical/Waterloo Rocketry/airframe_layup.jpg');
+	background: url('../media/mechanical/Waterloo Rocketry/Airframe_Clamp.JPG');
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
@@ -169,7 +169,7 @@
 }
 
 #airframe3 {
-	background: url('../media/mechanical/Waterloo Rocketry/airframe_fincan.jpg');
+	background: url('../media/mechanical/Waterloo Rocketry/airframe_layup.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
@@ -177,6 +177,20 @@
 }
 
 #airframe3__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#airframe4 {
+	background: url('../media/mechanical/Waterloo Rocketry/airframe_fincan.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#airframe4__inner {
 	background-size: contain;
 	object-fit: contain;
 	width: 100%;

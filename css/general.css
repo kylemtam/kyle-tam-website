@@ -131,7 +131,7 @@ a.page {
  
 }
 .footer__container {
-    padding-top: 1rem;
+  padding: 1rem;
 	display: inline-block;
 }
 

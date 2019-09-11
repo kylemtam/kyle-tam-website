@@ -45,11 +45,11 @@
 }
 
 .box__outer {
-	height: 27rem;
+	height: 30rem;
 }
 
 .box__inner {
-	height: 27rem;
+	height: 30rem;
 	padding-top: 4rem;
 }
 
@@ -89,7 +89,6 @@
 	object-fit: contain;
 	width: 100%;
 	padding-top: 11rem;
-	padding-top: 9rem;
 }
 
 #canrgx3 {
@@ -105,4 +104,34 @@
 	object-fit: contain;
 	width: 100%;
 	padding-top: 11rem;
+}
+
+#daq1 {
+	background: url('../media/electrical/waterloo_rocketry/daq_team.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#daq1__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 11rem;
+}
+
+#daq2 {
+	background: url('../media/electrical/waterloo_rocketry/boards.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#daq2__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 14rem;
 }
