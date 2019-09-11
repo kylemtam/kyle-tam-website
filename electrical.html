@@ -79,11 +79,36 @@
                 </div>
             </div>
             <div class="section col-md-12">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h3 class="subteam-title text-left">Data Acquisition</h3>
-                        <p class="content-date text-left">January 2019 - Present</p> 
-                        <p class="content-text text-left">In January, I joined the Data Acquisition Team where I have helped the team upgrade the hardware used to collect data on our rocket. During our cold flow and static fire tests of our engine, I work with the team to integrate load cells and differential pressure sensors in our setup to collect data on the performance of our engine. This was made possible using a custom program made on National Instrument's LabVIEW. Furthermore, I have helped the team test and troubleshoot PCBs created by our electrical team using KiCad and oscilloscopes to ensure that we collect accurate and complete data. This has also involved research into op-amps, power supplies and other components to conduct a noise analysis in order to figure out the source of the loss of data from our load cells.</p>
-                    </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="subteam-title text-left">Data Acquisition</h3>
+                    <p class="content-date text-left">January 2019 - Present</p> 
+                    <p class="content-text text-left">In January, I joined the Data Acquisition Team where I have helped the team upgrade the hardware used to collect data on our rocket. During our cold flow and static fire tests of our engine, I work with the team to integrate load cells and differential pressure sensors in our setup to collect data on the performance of our engine. This was made possible using a custom program made on National Instrument's LabVIEW. Furthermore, I have helped the team test and troubleshoot PCBs created by our electrical team using KiCad and oscilloscopes to ensure that we collect accurate and complete data. This has also involved research into op-amps, power supplies and other components to conduct a noise analysis in order to figure out the source of the loss of data from our load cells.</p>
+                </div>
+                
+
+                <div class="photos col-md-10 col-md-offset-2">
+                        <div class="ind_photo col-md-6" id="photo">
+                            <a href="https://www.flickr.com/photos/uwrocketry/46914633252/in/album-72157706316632735/")>
+                                <div class="box__outer" id="daq1">
+                                    <div class="box__inner" id="daq1__inner">
+                                        <h1 class="cat_name">Waterloo Rocketry Data Acquisition Team</h1>
+                                        <h1 class="cat_title">As of Winter 2019, the Data Acquisition (DAQ) Team consisted of Edward Yang, Teresa Tang and me, Kyle Tam. In this photo, we are depicted having a good time as we set up the DAQ system including the National Instruments LabVIEW program.</h1>
+                                        <h1 class="cat_title">Photo Credit: Riley Holierhoek/Waterloo Rocketry</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="ind_photo col-md-6" id="photo">
+                            <a href="media/electrical/waterloo_rocketry/boards.jpg">
+                                <div class="box__outer" id="daq2">
+                                    <div class="box__inner" id="daq2__inner">
+                                        <h1 class="cat_name">Data Acquisition Boards</h1>
+                                        <h1 class="cat_title">All of the boards used for Data Acquisition were designed by Electrical Team members at Waterloo Rocketry. As a member of the Data Acquisition Team, I have spent many hours configuring and troubleshooting these boards to maximize the accuracy of the data we receive from our sensors.</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                 </div>
 
             <div class="section col-md-12">
@@ -99,10 +124,46 @@
                     <p class="content-date">September 2018 - July 2019</p> 
                     <p class="content-text text-left">The Canadian Reduced Gravity Experiment Design Challenge (CAN-RGX) is a competition for Canadian post-secondary students to design and test a small scientific experiment on board a Falcon-20 which had been modified for reduced gravity flight to simulate the effects of microgravity. This competition was made possible through a collaboration with the National Research Council and the Canadian Space Agency.</p>
                     <p class="content-text text-left">As a part of a team of 8 students in Waterloo Rocketry's Payload division, I helped design and test an experiment that aimed to characterize the physics of ferrofluids and collodial fluids under the influence of a magnetic field in simulated microgravity. This was done with the goal of determining the potential applications of ferrofluids in commercial applications for the space industry. On July 24, 2019, I had the amazing opportunity fly aboard the Falcon-20 to conduct our experiment as one of the primary mission specialists..</p>
-                    <p class="content-text text-left">During our design cycle, we pursued the design and manufacturing of a solenoid-powered fluid system controlled by an STM32 Blue Pill and H-bridge as a potential space industry application for pumping liquid oxygen and satellite cooling systems without the use of moving mechanical components. This design consisted of a loop of a circular fluid loop with a solenoid stack attached on one of the sides. An identical loop without a pump was placed beside this loop to serve as a control. A flow meter was used to measure the flow rate of the fluid in the loop, and pressure sensors before and after the pump measured the pressure differential across the pump. It was discovered that this model would not be viable for commerical applications due to the low flow rates measured without the use of excessive power consumption in the system.</p>
+                    <p class="content-text text-left">During our design cycle, we pursued the design and manufacturing of a solenoid-powered fluid system controlled by an STM32 Blue Pill and H-bridge as a potential space industry application for pumping liquid oxygen and satellite cooling systems without the use of moving mechanical components. This design consisted of a fluid-filled loop with a solenoid stack attached on one side. An identical loop without a pump was placed beside this loop to serve as a control. A flow meter was used to measure the flow rate of the fluid in the loop, and pressure sensors before and after the pump measured the pressure differential across the pump. It was discovered that this model would not be viable for commerical applications due to the low flow rates measured without the use of excessive power consumption in the system.</p>
                     <p class="content-text text-left">My contributions to the electrical side of this project included refining and testing the code that output two SPWM waves offset by 90 degrees which were then converted to sine waves using the H-bridge. To produce SPWM, two PWM signals were generated on A0 and A1, with each being 90 degrees offset from the other. Both of these PWM signals only generate the positive half of the sine wave. In order to create the negative half of the sine wave, two additional pins A2 and A3 were alternated between 1 and 0 to encode the sign of the signal. This sign changed with every second SPWM wave to general the full sine curve. Variables are used to control the clock frequency and PWM frequency. You can find the full project and the code <a href="https://github.com/waterloo-rocketry/Payload-2019/tree/STM32Code">here</a>.</p>
                     <p class="content-text text-left">You can find a summary of the campagin's events and footage from the flight here: <a href="https://www.youtube.com/watch?v=ca5r7QK3vPc">https://www.youtube.com/watch?v=ca5r7QK3vPc</a></p>
                 </div>
+
+                <div class="photos">
+                        <div class="ind_photo col-md-4" id="photo">
+                            <a href="https://www.flickr.com/photos/uwrocketry/48376650256/in/album-72157709817753111/")>
+                                <div class="box__outer" id="canrgx1">
+                                    <div class="box__inner" id="canrgx1__inner">
+                                        <h1 class="cat_name">University of Waterloo CAN-RGX Team</h1>
+                                        <h1 class="cat_title">A big thank you to SEDS-Canada and all of our sponsors for giving us the opportunity to fly our magnetic ferrofluid payload experiment in microgravity! It was truly an exhilarating experience that none of us at Waterloo Rocketry will ever forget. </h1>
+                                        <h1 class="cat_title">Photo Credit: SEDS-Canada/Kristen Cote</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="ind_photo col-md-4" id="photo">
+                            <a href="media/electrical/canrgx/solenoid_setup.jpg">
+                                <div class="box__outer" id="canrgx2">
+                                    <div class="box__inner" id="canrgx2__inner">
+                                        <h1 class="cat_name">Section of the Magnetic Fluid Loop</h1>
+                                        <h1 class="cat_title">Using an STM32 Blue Pill and H-bridge, the code that I worked on allowed us to create a relatively consistent magnetic field that propelled ferromagnetic objects. It is hypothesized that with additional power, the loop would be able to propel the paramagnetic ferrofluid.</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="ind_photo col-md-4" id="photo">
+                            <a href="media/electrical/canrgx/experiment.jpg">
+                                <div class="box__outer" id="canrgx3">
+                                    <div class="box__inner" id="canrgx3__inner">
+                                        <h1 class="cat_name">Experiment Onboard the Falcon 20</h1>
+                                        <h1 class="cat_title">Our experiment in the pelican case aboard the Falcon 20. In between flight parabolas, we switched test cells and adjusted the position of our magnets to gather a total of 12 data sets and recordings in the flight.</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
             </div>
 
             <div class="section col-md-12">
@@ -136,6 +197,16 @@
                 <div class="footer__container">
                     <a href="mailto:kyle.m.tam@gmail.com">
                         <img src="media/icon_mail.png">
+                    </a>
+                </div>
+                <div class="footer__container">
+                    <a href="https://www.linkedin.com/in/kyle-m-tam/">
+                        <img src="media/icon_linkedin.png">
+                    </a>
+                </div>
+                <div class="footer__container">
+                    <a href="https://github.com/kylemtam">
+                        <img src="media/icon_github.png">
                     </a>
                 </div>
             </div>

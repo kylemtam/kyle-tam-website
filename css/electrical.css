@@ -33,3 +33,105 @@
 #uofthacks {
 	margin-top: 4rem;
 }
+
+/* Photos */
+
+.photos {
+	margin-left: 11rem;
+}
+
+#photo { 
+	margin-top: 3rem;
+}
+
+.box__outer {
+	height: 30rem;
+}
+
+.box__inner {
+	height: 30rem;
+	padding-top: 4rem;
+}
+
+.box__inner .cat_name {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+    padding-left: 1rem;
+}
+
+#canrgx1 {
+	background: url('../media/electrical/canrgx/sponsors.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#canrgx1__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 9rem;
+}
+
+#canrgx2 {
+	background: url('../media/electrical/canrgx/solenoid_setup.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#canrgx2__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 11rem;
+}
+
+#canrgx3 {
+	background: url('../media/electrical/canrgx/experiment.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#canrgx3__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 11rem;
+}
+
+#daq1 {
+	background: url('../media/electrical/waterloo_rocketry/daq_team.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#daq1__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 11rem;
+}
+
+#daq2 {
+	background: url('../media/electrical/waterloo_rocketry/boards.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#daq2__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 14rem;
+}
