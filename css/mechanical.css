@@ -26,9 +26,6 @@
 }
 
 /* Logos */
-#skillsontario {
-
-}
 
 /* Photos */
 
@@ -36,50 +33,197 @@
 	margin-left: 11rem;
 }
 
+#photo { 
+	margin-top: 3rem;
+}
+
+.box__outer {
+	height: 27rem;
+}
+
+.box__inner {
+	height: 27rem;
+	padding-top: 4rem;
+}
+
+.box__inner .cat_name {
+	color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+    padding-left: 1rem;
+}
+
 
 #payload1_inner{
-	height: 25rem;
-	margin: 0 auto;
-	padding-top: 15rem;
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
 }
 
 #payload1 {
 	background: url('../media/mechanical/Waterloo Rocketry/payload_cubesat_endface.JPG');
-	background-size: cover;
-	height: 25rem;
-	width: 30rem;
-	margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 }
 
 #payload2_inner{
-	height: 25rem;
-	margin: 0 auto;
-	padding-top: 10rem;
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 2rem;
 }
 
 #payload2 {
 	background: url('../media/mechanical/Waterloo Rocketry/payload_tablet_attachment.JPG');
-	background-size: cover;
-	height: 25rem;
-	width: 25rem;
-	margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 }
 
 #payload3_inner{
-	height: 25rem;
-	margin: 0 auto;
-	padding-top: 3rem; 
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
 }
 
 #payload3 {
 	background: url('../media/mechanical/Waterloo Rocketry/payload_cubesat.jpg');
-	background-size: cover;
-	height: 25rem;
-	width: 15rem;
-	margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 }
 
 #recovery1 {
-	background: url('../media/science.jpg');
-	background-size: cover;
+	background: url('../media/mechanical/Waterloo Rocketry/recovery_sled.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#recovery1__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#recovery2 {
+	background: url('../media/mechanical/Waterloo Rocketry/recovery_pibracket.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#recovery2__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#recovery3 {
+	background: url('../media/mechanical/Waterloo Rocketry/recovery_parachute.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#recovery3__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#airframe1 {
+	background: url('../media/mechanical/Waterloo Rocketry/airframe_fins.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#airframe1__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#airframe2 {
+	background: url('../media/mechanical/Waterloo Rocketry/airframe_layup.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#airframe2__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#airframe3 {
+	background: url('../media/mechanical/Waterloo Rocketry/airframe_fincan.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#airframe3__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#canrgx1 {
+	background: url('../media/mechanical/CAN-RGX/sponsors.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#canrgx1__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 9rem;
+}
+
+#canrgx2 {
+	background: url('../media/mechanical/CAN-RGX/experiment_setup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#canrgx2__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 11rem;
+	padding-top: 9rem;
+}
+
+#canrgx3 {
+	background: url('../media/mechanical/CAN-RGX/experiment.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#canrgx3__inner {
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+	padding-top: 11rem;
 }
