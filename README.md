@@ -1,4 +1,4 @@
-# Https://www.KyleMTam.com
+# https://www.KyleMTam.com
 
 Hello there!
 My name is Kyle Tam. I'm a 2A Mechatronics Engineering student pursuing a physical sciences option in physics at the University of Waterloo.
