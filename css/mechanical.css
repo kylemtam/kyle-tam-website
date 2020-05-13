@@ -54,6 +54,33 @@
     padding-left: 1rem;
 }
 
+#hatch1_inner{
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#hatch1 {
+	background: url('../media/mechanical/Hatch/impactor.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
+
+#hatch2_inner{
+	background-size: contain;
+	object-fit: contain;
+	width: 100%;
+}
+
+#hatch2 {
+	background: url('../media/mechanical/Hatch/GeneralFusion.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}
 
 #payload1_inner{
 	background-size: contain;

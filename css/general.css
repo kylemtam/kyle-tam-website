@@ -265,6 +265,7 @@ a.page {
 	font-size: 1.25rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-decoration: none;
 }
 
 .box__outer{
@@ -288,6 +289,7 @@ a.page {
 	visibility: hidden;
 	opacity: 0;
 }
+
 
 /* Logos */
 .canrgx{
