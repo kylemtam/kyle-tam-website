@@ -247,8 +247,8 @@ a.page {
 	padding-top: 5.2rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
-    padding-bottom: 1.5rem;
-    margin: 0 auto;
+  padding-bottom: 1.5rem;
+  margin: 0 auto;
 }
 
 .box__outer:hover .box__inner{
@@ -288,6 +288,32 @@ a.page {
 	transition: 0.3s;
 	visibility: hidden;
 	opacity: 0;
+}
+
+/* Photo Captions */
+.cat_name {
+	color: black;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1.30rem;
+  font-style: italic;
+  margin-bottom: 0.3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-indent: 1rem;
+  text-align: left;
+}
+
+.cat_title {
+	color: black;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  text-indent: 1rem;
+  text-align: left;
 }
 
 
