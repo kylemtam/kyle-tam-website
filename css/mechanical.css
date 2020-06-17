@@ -25,10 +25,7 @@
     padding-bottom: 2rem;
 }
 
-/* Logos */
-
 /* Photos */
-
 .photos {
 	margin-left: 11rem;
 }
@@ -42,18 +39,6 @@
 	margin-bottom: 0rem;
 }
 
-.box__inner {
-	height: 27rem;
-	padding-top: 4rem;
-}
-
-.box__inner .cat_name {
-	color: white;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight: 800;
-	font-size: 2rem;
-    padding-left: 1rem;
-}
 
 #hatch1 {
 	background: url('../media/mechanical/Hatch/impactor.png');
