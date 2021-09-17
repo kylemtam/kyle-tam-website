@@ -36,10 +36,22 @@
 	padding-top: 20rem;
 }
 
-#canrgx1_inner{
+#msam1 {
+	background: url('../media/science/msam/ldmprinter.png');
+	background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
 	height: 22rem;
 	margin: 0 auto;
-	padding-top: 6rem;
+}
+
+#msam2 {
+	background: url('../media/science/msam/90degreetube.jpg');
+    background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 22rem;
+	margin: 0 auto;
 }
 
 #canrgx1 {
