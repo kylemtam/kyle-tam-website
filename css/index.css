@@ -38,68 +38,27 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.box__outer:hover .box__inner{
-	transition: 0.3s;
-	visibility: visible;
-	opacity: 1;
-}
-
-.box__inner .cat_name {
-	color: white;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight: 800;
-	font-size: 2.5rem;
-    margin-bottom: 0.3rem;
-    padding-left: 1rem;
-}
-
-.box__inner .cat_title {
-	color: white;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 1.8rem;
-    margin-bottom: 0.3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 .box__outer{
-	background: url('../media/sample.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-    background-size: cover;
     height: 23rem;
-	text-align: left;
-	padding-left: 0rem;
-	margin-bottom: 1rem;
 }
 
 .box__inner {
-	background: linear-gradient(to top, rgba(0,0,0,1), rgba(255,255,255,0));
-	background-size: cover;
-	background-repeat: no-repeat;
-    background-position: center;
     height: 23rem;
-	text-align: left;
-	padding-left: 1rem;
     padding-top: 5rem;
-	transition: 0.3s;
-	visibility: hidden;
-	opacity: 0;
 }
 
-#mechanical {
+#design {
+	background: url('../media/design.jpg');
+	background-size: cover;
+}
+
+#manufacturing {
+	background: url('../media/manufacturing.jpg');
+	background-size: cover;
+}
+
+#projects {
 	background: url('../media/mechanical.jpg');
-	background-size: cover;
-}
-
-#electrical {
-	background: url('../media/electrical.jpg');
-	background-size: cover;
-}
-
-#science {
-	background: url('../media/science.jpg');
 	background-size: cover;
 }
 
