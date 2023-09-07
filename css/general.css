@@ -271,9 +271,9 @@ a.page {
 .job-images {
 	/*margin-left: 10%; */
 	max-width: 40%;
+  max-height: 50rem;
 	vertical-align: middle;
 	display: inline-block;
-  max-height: 50rem;
   margin: 3rem;
 }
 
