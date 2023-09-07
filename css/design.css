@@ -1,0 +1,13 @@
+.cover-photo {
+    height: 50%;
+	background: url('../media/mechanical.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#quanser{
+	max-height: 25rem;
+}
