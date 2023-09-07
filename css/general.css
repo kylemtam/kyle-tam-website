@@ -28,7 +28,7 @@ blockquote {
   font-size: 1.5rem;
 }
 
-h4 {
+/*h4 {
   display: block;
 	clear: both;
 	margin-left: 2rem;
@@ -36,7 +36,7 @@ h4 {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 4rem;
-}
+}*/
 
 .icon{
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -153,7 +153,6 @@ a.page {
 }
 .copyright_container {
     display: block;
- 
 }
 .footer__container {
   padding: 1rem;
@@ -184,7 +183,6 @@ a.page {
     font-size: 84px;
     line-height:1.25;
 }
-
 
 .downArrow{
     margin: 0 auto;
