@@ -299,17 +299,6 @@ a.page {
 	opacity: 1;
 }
 
-
-.box__inner .cat_title {
-	color: white;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 1.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-decoration: none;
-}
-
 .box__outer{
 	background: url('../media/sample.jpg');
 	background-repeat: no-repeat;
@@ -334,28 +323,29 @@ a.page {
 
 /* Photo Captions */
 .cat_name {
-	color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 1.30rem;
-  font-style: italic;
+	font-weight: 800;
+	font-size: 2.5rem;
   margin-bottom: 0.3rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  text-indent: 1rem;
-  text-align: left;
+	text-align: center;
 }
 
 .cat_title {
-	color: black;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 1.2rem;
-  font-style: italic;
-  padding-left: 4rem;
-  padding-right: 4rem;
   margin-bottom: 2rem;
   text-decoration: none;
-  text-indent: 1rem;
   text-align: left;
+  color: white;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+	text-align: center;
+	text-justify:inter-word;
 }
 
 
